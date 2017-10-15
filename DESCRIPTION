@@ -1,0 +1,25 @@
+Package: SebastianSchwarzPackage
+Type: Package
+Title: Summary of the functions built in class
+Version: 2.3.0
+Author: Sebastian Schwarz
+Maintainer: Sebastian Schwarz <sebastian.schwarz@polytechnique.edu>
+Description: Utility containing 5 functions we wrote in classe, those being 
+    save_as_csv: simple csv write function
+    my_csv_reader: simple csv read function
+    multi_excel: excel import function
+    draw_names: plot function on French demographical name data
+    draw_a_name: simple plot function on French demographical name data
+License: The Unlicence
+Encoding: UTF-8
+LazyData: true
+Imports: assertthat,
+    prenoms,
+    readxl,
+    ggplot2,
+    dplyr
+Suggests: knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1
